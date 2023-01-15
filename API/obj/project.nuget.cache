@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pw56MineJuYftcJ1aq0hR7H5KHWwdcqd5+wcmJgZLoN8puhty6QFaCUF+GjNAczSvuRQUbNrOkowht2GJCNBZw==",
+  "dgSpecHash": "JcTLxECFsuOFzoGA3dbDD0Fn2ZVgct2Y2MBRa303bqnKejAAl7OjpMDnX2fgg72Uahg8yRqe6BJaabpExaoyEQ==",
   "success": true,
   "projectFilePath": "C:\\dev\\Chiron\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alvin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alvin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\alvin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\alvin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.1\\microsoft.aspnetcore.authentication.jwtbearer.7.0.1.nupkg.sha512",
     "C:\\Users\\alvin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\alvin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\alvin\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

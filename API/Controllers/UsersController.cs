@@ -1,11 +1,13 @@
 
 using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
+[Authorize]
 public class UsersController : ChironAPIController
 {
     private readonly DataContext _context;
@@ -16,14 +18,15 @@ public class UsersController : ChironAPIController
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+    public async Task<ActionResult<IEnumerable<User>>> GetAllUsers() //TODO might need to get rid of this
     {
         var users = await _context.Users.ToListAsync();
         return users;
     }
 
+    
     [HttpGet("{id}")]
-    public async Task<ActionResult<User>> GetUserAsync(int id)
+    public async Task<ActionResult<User>> GetUserByID(int id)
     {
         var user = await _context.Users.FindAsync(id);
         return user;
