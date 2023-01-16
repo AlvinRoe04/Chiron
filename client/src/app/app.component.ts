@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title: string = 'Project Chiron';
+  title: string = 'Roecademy';
   users: any; //TODO change this to a User model
 
   constructor(private http: HttpClient) { }

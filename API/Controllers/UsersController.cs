@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
-
-[Authorize]
+//TODO add Authorize tag
 public class UsersController : ChironAPIController
 {
     private readonly DataContext _context;
